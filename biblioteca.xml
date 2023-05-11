@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro id="L001" tipo_clase="novela" num_paginas="250">
+        <titulo></titulo>
+        <sinopsis></sinopsis>
+        <indice></indice>
+        <capitulo num-paginas="100">
+            <titulo>La habilidad del Risitas</titulo>
+            <contenido enlace="https://www.youtube.com/watch?v=QT13kk8HDDo" />
+        </capitulo>
+        <capitulo num-paginas="75">
+            <titulo>El Resplandor</titulo>
+            <contenido enlace="https://www.youtube.com/watch?v=-CTFKWdIJRo" />
+        </capitulo>
+        <capitulo num-paginas="75">
+            <titulo>Llama Style</titulo>
+            <contenido enlace="https://www.youtube.com/watch?v=FqC2lO3Yy_4" />
+        </capitulo>
+    </libro>
+</biblioteca>
