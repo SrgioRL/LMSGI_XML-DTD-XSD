@@ -1,21 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <biblioteca>
-    <libro id="L001" tipo_clase="novela" num_paginas="250">
-        <titulo></titulo>
-        <sinopsis></sinopsis>
-        <indice></indice>
-        <capitulo num-paginas="100">
-            <titulo>La habilidad del Risitas</titulo>
-            <contenido enlace="https://www.youtube.com/watch?v=QT13kk8HDDo" />
-        </capitulo>
-        <capitulo num-paginas="75">
-            <titulo>El Resplandor</titulo>
-            <contenido enlace="https://www.youtube.com/watch?v=-CTFKWdIJRo" />
-        </capitulo>
-        <capitulo num-paginas="75">
-            <titulo>Llama Style</titulo>
-            <contenido enlace="https://www.youtube.com/watch?v=FqC2lO3Yy_4" />
-        </capitulo>
-    </libro>
+  <!-- - LIBROS - -->
+
+  <libro id="L111" tipo_clase="novela" num_paginas="250">
+    <titulo>Grandes personajes</titulo>
+
+    <sinopsis
+      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
+      lacus in neque varius lobortis. Duis fringilla magna non lorem
+      scelerisque, ut suscipit justo consectetur.
+    </sinopsis>
+
+    <indice />
+
+    <capitulo num-paginas="100">
+      <titulo>La habilidad del Risitas</titulo>
+      <contenido enlace="https://www.youtube.com/watch?v=QT13kk8HDDo" />
+    </capitulo>
+
+    <capitulo num-paginas="75">
+      <titulo>El Resplandor</titulo>
+      <contenido enlace="https://www.youtube.com/watch?v=-CTFKWdIJRo" />
+    </capitulo>
+
+    <capitulo num-paginas="75">
+      <titulo>Llama Style</titulo>
+      <contenido enlace="https://www.youtube.com/watch?v=FqC2lO3Yy_4" />
+    </capitulo>
+  </libro>
+
+  <libro id="L222" tipo_clase="infantil" num_paginas="200">
+    <titulo></titulo>
+
+    <sinopsis
+      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
+      lacus in neque varius lobortis. Duis fringilla magna non lorem
+      scelerisque, ut suscipit justo consectetur.
+    </sinopsis>
+
+    <indice />
+
+    <capitulo num-paginas="50">
+      <titulo>El mini gatito</titulo>
+      <contenido enlace="https://www.youtube.com/shorts/5WqLjXTuvyU" />
+    </capitulo>
+
+    <capitulo num-paginas="75">
+      <titulo>El gatito con las patitas cortas</titulo>
+      <contenido enlace="https://www.youtube.com/shorts/dklomBtFzeU" />
+    </capitulo>
+
+    <capitulo num-paginas="75">
+      <titulo>Pájaro rojo haciendo HueHueHue</titulo>
+      <contenido enlace="https://www.youtube.com/watch?v=ewf-8rx9_uQ" />
+    </capitulo>
+  </libro>
+
+  <libro id="L333" tipo_clase="didactico" num_paginas="250">
+    <titulo></titulo>
+
+    <sinopsis
+      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
+      lacus in neque varius lobortis. Duis fringilla magna non lorem
+      scelerisque, ut suscipit justo consectetur.
+    </sinopsis>
+
+    <indice />
+
+    <capitulo num-paginas="100">
+      <titulo>Como coger un balón</titulo>
+      <contenido enlace="https://www.youtube.com/watch?v=6eXG31O9mHU" />
+    </capitulo>
+
+    <capitulo num-paginas="75">
+      <titulo>Como dar un susto</titulo>
+      <contenido enlace="https://www.youtube.com/watch?v=Z3HY04wAn48" />
+    </capitulo>
+
+    <capitulo num-paginas="75">
+      <titulo>Como tocar la batería</titulo>
+      <contenido enlace="https://www.youtube.com/watch?v=-UYgORr5Qhg" />
+    </capitulo>
+  </libro>
+
+  <!-- - REVISTAS - -->
+
+  <revista id="R111" tipo_clase="informatica" num-paginas="100">
+    <titulo>Designer vs dev</titulo>
+    <numero>12</numero>
+    <indice />
+    <seccion num-paginas="50">
+        <contenido enlace="https://www.youtube.com/shorts/5qHHm7ooavo"/>
+    </seccion>
+    <seccion num-paginas="50">
+        <contenido enlace="https://www.youtube.com/shorts/W-d-t5mtSZM"/>
+    </seccion>
+  </revista>
+
+  <revista id="R222" tipo_clase="corazon" num-paginas="200">
+    <titulo>Todo sobre Pedro Pascal</titulo>
+    <numero>323</numero>
+    <indice />
+    <seccion num-paginas="100">
+        <contenido enlace="https://www.youtube.com/shorts/ujHZdtmXjsY"/>
+    </seccion>
+    <seccion num-paginas="100">
+        <contenido enlace="https://www.youtube.com/shorts/0k4-lglLsLs"/>
+    </seccion>
+  </revista>
+
+  <revista id="R333" tipo_clase="coches" num-paginas="150">
+    <titulo>El coche fantástico</titulo>
+    <numero>45</numero>
+    <indice />
+    <seccion num-paginas="75">
+        <contenido enlace="https://www.youtube.com/watch?v=fsxVo6WqI8w"/>
+    </seccion>
+    <seccion num-paginas="75">
+        <contenido enlace="https://www.youtube.com/watch?v=gfYl6-RyAlM"/>
+    </seccion>
+  </revista>
+
+  <revista id="R444" tipo_clase="investigacion" num-paginas="250">
+    <titulo></titulo>
+    <numero>120</numero>
+    <indice />
+    <seccion num-paginas="125">
+        <contenido enlace="https://www.youtube.com/watch?v=yRsB9KzX5d0"/>
+    </seccion>
+    <seccion num-paginas="125">
+        <contenido enlace="https://www.youtube.com/watch?v=TUII7oRlaAU"/>
+    </seccion>
+  </revista>
+
+  <revista id="R555" tipo_clase="otras">
+    <titulo></titulo>
+    <numero>400</numero>
+    <indice />
+    <seccion>
+        <contenido enlace=""/>
+    </seccion>
+    <seccion>
+        <contenido enlace=""/>
+    </seccion>
+  </revista>
+
+  <periodico id="P111" tipo_clase="nacional" fecha_publicacion="12-08-1996">
+    
+
+
+</periodico>
+
 </biblioteca>
