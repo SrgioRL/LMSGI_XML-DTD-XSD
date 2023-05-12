@@ -3,7 +3,7 @@
 <biblioteca>
   <!-- - LIBROS - -->
 
-  <libro id="L111" tipo_clase="novela" num_paginas="250">
+  <libro id="L1111" tipo_clase="novela" num_paginas="250">
     <titulo>Grandes personajes</titulo>
 
     <sinopsis
@@ -30,7 +30,7 @@
     </capitulo>
   </libro>
 
-  <libro id="L222" tipo_clase="infantil" num_paginas="200">
+  <libro id="L2222" tipo_clase="infantil" num_paginas="200">
     <titulo></titulo>
 
     <sinopsis
@@ -57,7 +57,7 @@
     </capitulo>
   </libro>
 
-  <libro id="L333" tipo_clase="didactico" num_paginas="250">
+  <libro id="L3333" tipo_clase="didactico" num_paginas="250">
     <titulo></titulo>
 
     <sinopsis
@@ -86,70 +86,118 @@
 
   <!-- - REVISTAS - -->
 
-  <revista id="R111" tipo_clase="informatica" num-paginas="100">
+  <revista id="R1111" tipo_clase="informatica" num-paginas="100">
     <titulo>Designer vs dev</titulo>
     <numero>12</numero>
     <indice />
     <seccion num-paginas="50">
-        <contenido enlace="https://www.youtube.com/shorts/5qHHm7ooavo"/>
+      <contenido enlace="https://www.youtube.com/shorts/5qHHm7ooavo" />
     </seccion>
     <seccion num-paginas="50">
-        <contenido enlace="https://www.youtube.com/shorts/W-d-t5mtSZM"/>
+      <contenido enlace="https://www.youtube.com/shorts/W-d-t5mtSZM" />
     </seccion>
   </revista>
 
-  <revista id="R222" tipo_clase="corazon" num-paginas="200">
+  <revista id="R2222" tipo_clase="corazon" num-paginas="200">
     <titulo>Todo sobre Pedro Pascal</titulo>
     <numero>323</numero>
     <indice />
     <seccion num-paginas="100">
-        <contenido enlace="https://www.youtube.com/shorts/ujHZdtmXjsY"/>
+      <contenido enlace="https://www.youtube.com/shorts/ujHZdtmXjsY" />
     </seccion>
     <seccion num-paginas="100">
-        <contenido enlace="https://www.youtube.com/shorts/0k4-lglLsLs"/>
+      <contenido enlace="https://www.youtube.com/shorts/0k4-lglLsLs" />
     </seccion>
   </revista>
 
-  <revista id="R333" tipo_clase="coches" num-paginas="150">
+  <revista id="R3333" tipo_clase="coches" num-paginas="150">
     <titulo>El coche fantástico</titulo>
     <numero>45</numero>
     <indice />
     <seccion num-paginas="75">
-        <contenido enlace="https://www.youtube.com/watch?v=fsxVo6WqI8w"/>
+      <contenido enlace="https://www.youtube.com/watch?v=fsxVo6WqI8w" />
     </seccion>
     <seccion num-paginas="75">
-        <contenido enlace="https://www.youtube.com/watch?v=gfYl6-RyAlM"/>
+      <contenido enlace="https://www.youtube.com/watch?v=gfYl6-RyAlM" />
     </seccion>
   </revista>
 
-  <revista id="R444" tipo_clase="investigacion" num-paginas="250">
+  <revista id="R4444" tipo_clase="investigacion" num-paginas="250">
     <titulo></titulo>
     <numero>120</numero>
     <indice />
     <seccion num-paginas="125">
-        <contenido enlace="https://www.youtube.com/watch?v=yRsB9KzX5d0"/>
+      <contenido enlace="https://www.youtube.com/watch?v=yRsB9KzX5d0" />
     </seccion>
     <seccion num-paginas="125">
-        <contenido enlace="https://www.youtube.com/watch?v=TUII7oRlaAU"/>
+      <contenido enlace="https://www.youtube.com/watch?v=TUII7oRlaAU" />
     </seccion>
   </revista>
 
-  <revista id="R555" tipo_clase="otras">
-    <titulo></titulo>
+  <revista id="R5555" tipo_clase="otras" num-paginas="100">
+    <titulo>Bailes del mundo</titulo>
     <numero>400</numero>
     <indice />
-    <seccion>
-        <contenido enlace=""/>
+    <seccion num-paginas="50">
+      <contenido enlace="https://www.youtube.com/watch?v=nVmXsBNfwHY" />
     </seccion>
-    <seccion>
-        <contenido enlace=""/>
+    <seccion num-paginas="50">
+      <contenido enlace="https://www.youtube.com/watch?v=Ab9X0SuvrYo" />
     </seccion>
   </revista>
 
-  <periodico id="P111" tipo_clase="nacional" fecha_publicacion="12-08-1996">
-    
+<!-- - PERIÓDICOS - -->
 
+  <periodico id="P1111" tipo_clase="nacional" fecha_publicacion="12-08-1996">
+    <indice />
 
-</periodico>
+    <seccion tipo_seccion="economica">
+      <articulo autor="Superintendente">
+        <contenido enlace="https://static.wikia.nocookie.net/mortadelo-y-filemn/images/d/d0/Sr._S%C3%BAper.gif/revision/latest?cb=20130310144538&path-prefix=es" />
+      </articulo>
+      <articulo autor="Ofelia">
+        <contenido enlace="https://static.wikia.nocookie.net/mortadelo-y-filemn/images/a/a5/Se%C3%B1orita_Ofelia.gif/revision/latest?cb=20130426163214&path-prefix=es" />
+      </articulo>
+    </seccion>
 
+    <seccion tipo_seccion="opinion">
+      <articulo autor="Mortadelo">
+        <contenido enlace="https://static.wikia.nocookie.net/mortadelo/images/9/92/Mortadelo1.gif/revision/latest?cb=20100423210711&path-prefix=es" />
+      </articulo>
+      <articulo autor="Filemon">
+        <contenido enlace="https://static.wikia.nocookie.net/mortadelo/images/b/bc/Filemon.gif/revision/latest?cb=20100424121742&path-prefix=es" />
+      </articulo>
+    </seccion>
+
+    <seccion tipo_seccion="nacional">
+      <articulo autor="Profesor Bacterio">
+        <contenido enlace="https://static.wikia.nocookie.net/mortadelo/images/2/26/Profesor_bacterio.gif/revision/latest?cb=20100424121324&path-prefix=es" />
+      </articulo>
+      <articulo autor="Don Pantunflo">
+        <contenido enlace="https://static.wikia.nocookie.net/mortadelo/images/c/ca/Don_Pantunflo_Zapatilla.jpg/revision/latest?cb=20110703155055&path-prefix=es" />
+      </articulo>
+    </seccion>
+
+    <periodico id="P2222" tipo_clase="internacional" fecha_publicacion="21-08-1997">
+      <indice />
+
+      <seccion tipo_seccion="deportes">
+        <articulo autor="Zipi">
+          <contenido enlace="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnp4ZFDVuJQQ4Tg7BmX6cnmTA7ubdAmt9P-FfBJ-eVH_9EO_74KLoX66_-2gFSJ4TnHA&usqp=CAU" />
+        </articulo>
+        <articulo autor="Zape">
+          <contenido enlace="https://pbs.twimg.com/profile_images/457170542135476225/dDEO9gas_400x400.jpeg" />
+        </articulo>
+      </seccion>
+
+      <seccion tipo_seccion="internacional">
+        <articulo autor="Tintín">
+          <contenido enlace="https://www.editorialjuventud.es/wp-content/uploads/tintin_person.png" />
+        </articulo>
+        <articulo autor="Milú">
+          <contenido enlace="https://www.tintin.com/tintin/persos/milou/milou_seul.jpg" />
+        </articulo>
+      </seccion>
+
+  </periodico>
 </biblioteca>
