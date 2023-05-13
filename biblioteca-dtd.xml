@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblioteca-dtd SYSTEM "biblioteca.dtd">
+
 <biblioteca>
   <!-- - LIBROS - -->
 
   <libros>
     <!-- - LIBROS - -->
 
-    <libro id="L1111" tipo_clase="novela" num_paginas="286">
+    <libro id="L1111" tipo_clase="novela" num_paginas_libro="286">
       <titulo>El último deseo</titulo>
 
       <sinopsis>
@@ -25,23 +27,23 @@
         3.- El último deseo. 
       </indice>
 
-      <capitulo num-paginas="100">
+      <capitulo num_paginas_cap="100">
         <titulo>El brujo</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=VlBIrR_tu5g" />
       </capitulo>
 
-      <capitulo num-paginas="100">
+      <capitulo num_paginas_cap="100">
         <titulo>El mal menor</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=VlBIrR_tu5g" />
       </capitulo>
 
-      <capitulo num-paginas="86">
+      <capitulo num_paginas_cap="86">
         <titulo>El último deseo</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=VlBIrR_tu5g" />
       </capitulo>
     </libro>
 
-    <libro id="L2222" tipo_clase="infantil" num_paginas="143">
+    <libro id="L2222" tipo_clase="infantil" num_paginas_libro="143">
       <titulo>Alicia en el país de la maravillas</titulo>
 
       <sinopsis>
@@ -56,23 +58,23 @@
         Capítulo XII: La declaración de Alicia.
       </indice>
 
-      <capitulo num-paginas="47">
+      <capitulo num_paginas_cap="47">
         <titulo>El descenso por la madriguera</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=Po49UEGQBLk" />
       </capitulo>
 
-      <capitulo num-paginas="48">
+      <capitulo num_paginas_cap="48">
         <titulo>La habitación del Conejo Blanco</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=Vj6Ai3fp3YA" />
       </capitulo>
 
-      <capitulo num-paginas="48">
+      <capitulo num_paginas_cap="48">
         <titulo>La declaración de Alicia</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=eRVxCZ85hzY" />
       </capitulo>
     </libro>
 
-    <libro id="L3333" tipo_clase="didactico" num_paginas="250">
+    <libro id="L3333" tipo_clase="didactico" num_paginas_libro="250">
       <titulo>Aprenda usted magia.</titulo>
 
       <sinopsis>
@@ -91,17 +93,17 @@
         VI.Efectos de magia cómica.
       </indice>
 
-      <capitulo num-paginas="100">
+      <capitulo num_paginas_cap="100">
         <titulo>CI.La magia.</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=AvN1tZBD0QQ" />
       </capitulo>
 
-      <capitulo num-paginas="75">
+      <capitulo num_paginas_cap="75">
         <titulo>III.Fundamentos del ilusionismo.</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=aCSYbzR3muY" />
       </capitulo>
 
-      <capitulo num-paginas="75">
+      <capitulo num_paginas_cap="75">
         <titulo>VI.Efectos de magia cómica.</titulo>
         <contenido enlace="https://www.youtube.com/watch?v=b9I4xbTPD5A" />
       </capitulo>
@@ -111,7 +113,7 @@
   <!-- - REVISTAS - -->
 
   <revistas>
-    <revista id="R1111" tipo_clase="informatica" num-paginas="100">
+    <revista id="R1111" tipo_clase="informatica" num_paginas_revista="100">
       <titulo>Designer vs dev</titulo>
       <numero>12</numero>
       <indice>
@@ -119,15 +121,15 @@
         2.- Un diseñador UI/UX y un ingeniero entran a un bar y...
       </indice>
 
-      <seccion num-paginas="50">
+      <seccion num_paginas_sec="50">
         <contenido enlace="https://www.youtube.com/shorts/5qHHm7ooavo" />
       </seccion>
-      <seccion num-paginas="50">
+      <seccion num_paginas_sec="50">
         <contenido enlace="https://www.youtube.com/shorts/W-d-t5mtSZM" />
       </seccion>
     </revista>
 
-    <revista id="R2222" tipo_clase="corazon" num-paginas="200">
+    <revista id="R2222" tipo_clase="corazon" num_paginas_revista="200">
       <titulo>Todo sobre Pedro Pascal</titulo>
       <numero>323</numero>
       <indice> 
@@ -135,15 +137,15 @@
         2 - Daddy is a state of mind. 
       </indice>
 
-      <seccion num-paginas="100">
+      <seccion num_paginas_sec="100">
         <contenido enlace="https://www.youtube.com/shorts/ujHZdtmXjsY" />
       </seccion>
-      <seccion num-paginas="100">
+      <seccion num_paginas_sec="100">
         <contenido enlace="https://www.youtube.com/shorts/0k4-lglLsLs" />
       </seccion>
     </revista>
 
-    <revista id="R3333" tipo_clase="coches" num-paginas="150">
+    <revista id="R3333" tipo_clase="coches" num_paginas_revista="150">
       <titulo>El coche fantástico</titulo>
       <numero>45</numero>
       <indice> 
@@ -151,15 +153,15 @@
         2.- Intro oficial 
       </indice>
 
-      <seccion num-paginas="75">
+      <seccion num_paginas_sec="75">
         <contenido enlace="https://www.youtube.com/watch?v=fsxVo6WqI8w" />
       </seccion>
-      <seccion num-paginas="75">
+      <seccion num_paginas_sec="75">
         <contenido enlace="https://www.youtube.com/watch?v=gfYl6-RyAlM" />
       </seccion>
     </revista>
 
-    <revista id="R4444" tipo_clase="investigacion" num-paginas="250">
+    <revista id="R4444" tipo_clase="investigacion" num_paginas_revista="250">
       <titulo>Laboratorios del mundo</titulo>
       <numero>120</numero>
       <indice>
@@ -167,15 +169,15 @@
         2. Historias de laboratorio 2
       </indice>
 
-      <seccion num-paginas="125">
+      <seccion num_paginas_sec="125">
         <contenido enlace="https://www.youtube.com/watch?v=yRsB9KzX5d0" />
       </seccion>
-      <seccion num-paginas="125">
+      <seccion num_paginas_sec="125">
         <contenido enlace="https://www.youtube.com/watch?v=TUII7oRlaAU" />
       </seccion>
     </revista>
 
-    <revista id="R5555" tipo_clase="otras" num-paginas="100">
+    <revista id="R5555" tipo_clase="otras" num_paginas_revista="100">
       <titulo>Bailes del mundo</titulo>
       <numero>400</numero>
       <indice>
@@ -183,10 +185,10 @@
         2- Moverse al ritmo de electro-swing
       </indice>
 
-      <seccion num-paginas="50">
+      <seccion num_paginas_sec="50">
         <contenido enlace="https://www.youtube.com/watch?v=nVmXsBNfwHY" />
       </seccion>
-      <seccion num-paginas="50">
+      <seccion num_paginas_sec="50">
         <contenido enlace="https://www.youtube.com/watch?v=5ueJ4-lTa1s" />
       </seccion>
     </revista>
