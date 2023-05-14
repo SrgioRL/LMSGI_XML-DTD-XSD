@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="biblioteca_xsd">
+    <complexType>
+      <sequence>
+        <element name="libros">
+          <complexType>
+            <sequence>
+              <element name="libro">
+                <complexType>
+                  <sequence>
+                    <element name="titulo_libro" type="string" />
+                    <element name="sinopsis" type="string" />
+                    <element name="indice_libro" type="string" />
+                    <element name="capitulo">
+                      <complexType>
+                        <sequence>
+                          <element name="titulo_cap" type="string" />
+                          <element name="contenido_cap" type="string" />
+                        </sequence>
+                      </complexType>
+                    </element>
+                  </sequence>
+                </complexType>
+              </element>
+
+              <element name="revistas">
+                <complexType>
+                  <sequence>
+                    <element name="revista">
+                      <complexType>
+                        <sequence>
+                          <element name="titulo_revista" type="string" />
+                          <element name="numero" type="integer" />
+                          <element name="indice_revista" type="string" />
+                          <element name="seccion_revista">
+                            <complexType>
+                              <sequence>
+                                <element
+                                  name="contenido_seccion"
+                                  type="string"
+                                />
+                              </sequence>
+                            </complexType>
+                          </element>
+                        </sequence>
+                      </complexType>
+                    </element>
+                  </sequence>
+                </complexType>
+              </element>
+
+              <element name="periodicos">
+                <complexType>
+                  <sequence>
+                    <element name="periodico">
+                      <complexType>
+                        <sequence>
+                          <element name="indice_periodico" type="string" />
+                          <element name="seccion_periodico">
+                            <complexType>
+                              <sequence>
+                                <element name="articulo" />
+                                <complexType>
+                                  <sequence>
+                                    <element
+                                      name="contenido_articulo"
+                                      type="string"
+                                    />
+                                  </sequence>
+                                </complexType>
+                              </sequence>
+                            </complexType>
+                          </element>
+                        </sequence>
+                      </complexType>
+                    </element>
+                  </sequence>
+                </complexType>
+              </element>
+            </sequence>
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+</schema>
