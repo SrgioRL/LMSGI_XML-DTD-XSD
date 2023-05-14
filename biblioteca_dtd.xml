@@ -5,8 +5,7 @@
   <!-- - LIBROS - -->
 
   <libros>
-    <!-- - LIBROS - -->
-
+   
     <libro id="L1111" tipo_clase_libro="novela" num_paginas_libro="286">
       <titulo_libro>El último deseo</titulo_libro>
 
